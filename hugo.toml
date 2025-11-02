@@ -1,3 +1,5 @@
+baseURL = "https://jassy24.github.io/boba-shop/"
+
 [build]
   [build.buildStats]
     enable = true
