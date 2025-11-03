@@ -1,4 +1,6 @@
-baseURL = "https://jassy24.github.io/boba-shop/"
+baseURL = 'https://jasanismallwood.com/boba-shop/'
+languageCode = 'en-us'
+summaryLength = 30
 
 [build]
   [build.buildStats]
