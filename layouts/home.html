@@ -1,14 +1,14 @@
 {{ define "main" }}
-<div class="mx-auto max-w-screen-xl p-4 lg:p-8 py-8 lg:py-16">
+<div class="mx-auto max-w-screen-xl p-4 lg:p-0 py-8 lg:py-16">
 <section id="home">
   <div class="flex flex-col gap-4">
     <div class="flex flex-col lg:flex-row gap-8 lg:gap-20 justify-center">
 
       <div class="leading-relaxed text-xl">
 
-        <h2 class="text-8xl font-[Cormorant_Garamond] leading-tight">Instagram Worthy Boba</h2>
+        <h2 class="text-5xl lg:text-8xl font-[Cormorant_Garamond] leading-tight">Instagram Worthy Boba</h2>
         <br>
-        <div class="mx-5 my-10 leading-9 ">
+        <div class="leading-9 ">
           <p>
             Moshi Moshi Boba Cafe offers a vibrant blend of creative drinks, freshly made Taiyaki, and a whimsical
             ambiance that
@@ -76,10 +76,10 @@
 
 <section id="drink-menu">
 <div class=" bg-[#3A4726]">
-  <div class="mx-auto max-w-screen-xl p-4 lg:p-0 py-8 lg:py-16 text-center">
+  <div class="overflow-x-scroll mx-auto max-w-screen-xl p-4 lg:p-0 py-8 lg:py-16 text-center">
     <h2 class="text-3xl font-medium font-[Cormorant_Garamond]">Our Drinks</h2>
 
-    <div class="flex gap-8 py-7 text-xl justify-center flex-wrap">
+    <div class="flex gap-8 py-7 text-xl whitespace-nowrap px-4 scrollbar-hide overflow-x-auto lg:justify-center lg:flex-wrap">
       <a href="#" data-category-link="specials" class="hover:underline hover:underline-offset-4">Specials</a>
       <a href="#" data-category-link="fruit-teas" class="hover:underline hover:underline-offset-4">Fruit Teas</a>
       <a href="#" data-category-link="special-teas" class="hover:underline hover:underline-offset-4">Special Teas</a>
@@ -97,7 +97,7 @@
 
       <!-- Specials -->
       <div class="drink-section" data-category="specials">
-        <div class="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-2 gap-5 text-left">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-5 text-left">
           <div class="card-body">
             <div class="grid grid-cols-2"> <img src="/boba-shop/images/Ichigo.png" alt="Ichigo"
                 class="h-full rounded-md group-hover:opacity-90 transition" />
@@ -115,7 +115,7 @@
 
     <!-- Fruit teas -->
     <div class="drink-section" data-category="fruit-teas">
-      <div class="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-2 gap-5 text-left">
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-5 text-left">
         <div class="card-body">
           <div class="grid grid-cols-2"> <img src="/boba-shop/images/Ichigo.png" alt="Ichigo"
               class="h-full rounded-md group-hover:opacity-90 transition" />
@@ -132,7 +132,7 @@
 
     <!-- Specials Teas-->
     <div class="drink-section" data-category="special-teas">
-      <div class="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-2 gap-5 text-left">
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-5 text-left">
         <div class="card-body">
           <div class="grid grid-cols-2"> <img src="/boba-shop/images/Ichigo.png" alt="Ichigo"
               class="h-full rounded-md group-hover:opacity-90 transition" />
@@ -175,7 +175,7 @@
     </div>
     <!-- Milk Teas -->
     <div class="drink-section" data-category="milk-teas">
-      <div class="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-2 gap-5 text-left">
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-5 text-left">
         <div class="card-body">
           <div class="grid grid-cols-2"> <img src="/boba-shop/images/Ichigo.png" alt="Ichigo"
               class="h-full rounded-md group-hover:opacity-90 transition" />
@@ -192,7 +192,7 @@
 
     <!-- moshi milk teas -->
     <div class="drink-section" data-category="moshis-milk-teas">
-      <div class="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-2 gap-5 text-left">
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-5 text-left">
         <div class="card-body">
           <div class="grid grid-cols-2"> <img src="/boba-shop/images/Black-lava.png" alt="Black Lava"
               class="h-full rounded-md group-hover:opacity-90 transition" />
@@ -271,7 +271,7 @@
 
     <!-- sparkling -->
     <div class="drink-section" data-category="sparkling-yogurts">
-      <div class="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-2 gap-5 text-left">
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-5 text-left">
         <div class="card-body">
           <div class="grid grid-cols-2"> <img src="/boba-shop/images/Mango-yogurt.png" alt="Mango Yogurt"
               class="h-full rounded-md group-hover:opacity-90 transition" />
@@ -288,7 +288,7 @@
 
     <!-- redbull -->
     <div class="drink-section" data-category="redbull-series">
-      <div class="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-2 gap-5 text-left">
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-5 text-left">
         <div class="card-body">
           <div class="grid grid-cols-2"> <img src="/boba-shop/images/Ichigo.png" alt="Ichigo"
               class="h-full rounded-md group-hover:opacity-90 transition" />
@@ -305,7 +305,7 @@
 
     <!-- Slow dripped -->
     <div class="drink-section" data-category="slow-dripped">
-      <div class="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-2 gap-5 text-left">
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-5 text-left">
         <div class="card-body">
           <div class="grid grid-cols-2"> <img src="/boba-shop/images/Boba-brown.png" alt="Boba Brown Latte"
               class="h-full rounded-md group-hover:opacity-90 transition" />
@@ -360,7 +360,7 @@
               Allow 10 - 15 minutes for preparation. Best enjoyed immediately for maximum crispiness.
             </p>
             <br>
-            <div class="grid grid-cols-3 sm:grid-cols-2 lg:grid-cols-3 gap-5 text-left">
+            <div class="grid grid-cols-2 lg:grid-cols-3 gap-5 text-left">
               <div class="topping-card">Red Bean</div>
               <div class="topping-card">Oreos</div>
               <div class="topping-card">Mozzarella</div>
