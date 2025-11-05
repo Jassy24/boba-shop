@@ -53,7 +53,7 @@ html {
 }
 
 .card-image {
-  @apply h-full object-cover rounded-md group-hover:opacity-90 transition col-span-1
+  @apply h-[115px] object-cover rounded-md group-hover:opacity-90 transition col-span-1
 }
 
 .card-grid{
