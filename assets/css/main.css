@@ -31,6 +31,8 @@ html {
   @apply text-left;
   @apply font-semibold;
   @apply text-[#1A1A1A];
+  @apply mt-2;
+
 }
 
 .cady-body {
@@ -38,6 +40,7 @@ html {
   @apply text-sm;
   @apply text-left;
   @apply text-[#535050];
+  @apply mt-2;
 }
 
 .card-price {
@@ -46,6 +49,15 @@ html {
   @apply text-left;
   @apply font-bold;
   @apply text-[#535050];
+  @apply mt-2;
+}
+
+.card-image {
+  @apply h-full object-cover rounded-md group-hover:opacity-90 transition col-span-1
+}
+
+.card-grid{
+  @apply grid grid-cols-3 gap-4 items-center
 }
 
 .topping-card {
@@ -71,4 +83,20 @@ html {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: capitalize;
+}
+
+.site-title{
+ @apply text-5xl lg:text-8xl font-[Cormorant_Garamond] leading-tight;
+}
+
+.site-paragraph{
+  @apply text-xl leading-9 mt-9;
+}
+
+.site-subheading{
+  @apply text-3xl font-medium font-[Cormorant_Garamond];
+}
+
+.site-body{
+  @apply text-xl mt-9
 }
